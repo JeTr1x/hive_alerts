@@ -58,6 +58,7 @@ def check_system():
         send_telegram_alert(alert)
 
 def main():
+    send_telegram_alert("Started alert daemon")
     while True:
         check_system()
         time.sleep(60)
