@@ -5,13 +5,13 @@ import time
 import socket
 
 # Настройки
-TELEGRAM_TOKEN = 'your_bot_token'
-CHAT_ID = 'your_chat_id'
+TELEGRAM_TOKEN = '8134307090:AAFnr9lBPnYH0HW9EKsIaXsJVW_n_jlhMw8'
+CHAT_ID = '-1002282433697'
 SERVER_NAME = ''  
 TEMP_THRESHOLD = 75
-CPU_LOAD_THRESHOLD = 90
-RAM_USAGE_THRESHOLD = 90
-DISK_USAGE_THRESHOLD = 90
+CPU_LOAD_THRESHOLD = 85
+RAM_USAGE_THRESHOLD = 85
+DISK_USAGE_THRESHOLD = 85
 
 def send_telegram_alert(message):
     full_message = f'📡 *{SERVER_NAME}*: {message}'
